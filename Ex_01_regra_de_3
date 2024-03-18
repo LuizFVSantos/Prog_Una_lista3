@@ -1,0 +1,20 @@
+import java.util.*;
+import java.io.*;
+
+public class Main {
+
+
+    public static void main(String[] args) {
+        double grandeza1, grandeza2, comparativo1, icognita;
+        Scanner read = new Scanner(System.in);
+        System.out.println("Digite 2 valores, uma grandeza e uma proporção");
+        grandeza1 = read.nextDouble();
+        comparativo1 = read.nextDouble();
+        System.out.println("digite o valro da grandeza a se comparar");
+        grandeza2 = read.nextDouble();
+        icognita = (grandeza2*comparativo1)/grandeza1;
+        System.out.println("O valor da comparação é: " + icognita);
+                
+    }
+    
+}
